@@ -1,2 +1,10 @@
 Welcome to the lab folder. This folder contains the raw lab data and code to pre-process this data following the methods described in the associated publication. 
 If you want to skip pre-processing, use the "LABS-LAGGED.csv" file directly to begin building models.
+
+The "LABS-raw.csv" file has had the following pretreatment:
+Calculated Biogas flow as total biogas volume in cubic feet  divided by 1440 minutes per day
+Rows with no Biogas flow information deleted (4/6/21-6/27/21)
+Removed VFA analysis prior to 4/21/20 due to different method
+Removed VS and COD data if it matched the previous data point (ex. Fri: 62100, Sat: 62100, Sun: 62100, removed Saturday and Sunday as analyses were only conducted on weekdays) 
+Filled in HSW VS and HSW COD as 0 up to 3/16/20, then used the first measurement of VS and COD as the values until the first measurement
+Deleted 2 temperatures assumed to be typos (4/4/20, 8/30/22), 1 pH (10/12/20), 1 VFA (8/11/20)

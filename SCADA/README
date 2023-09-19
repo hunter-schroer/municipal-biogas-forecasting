@@ -1,1 +1,2 @@
-
+Welcome to the SCADA folder. This folder contains the raw SCADA data and code to pre-process this data following the methods described in the associated publication. 
+If you want to skip pre-processing, use the "SCADA-FINAL.csv" file directly to begin building models.

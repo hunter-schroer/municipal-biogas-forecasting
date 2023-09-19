@@ -1,3 +1,0 @@
-Welcome to the LAB dataset. 
-For data preprocessing, run "LAB-first-pretreatment-interpolation.ipynb" and then "LAB-pretreatment.ipynb"
-If you want to skip straight to modeling, just use the Jupyter notebooks for each individual model

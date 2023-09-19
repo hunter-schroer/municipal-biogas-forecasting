@@ -1,1 +1,2 @@
-
+Welcome to the Combined folder. This folder contains the raw dataset and code to pre-process these data following the methods described in the associated publication. 
+If you want to skip pre-processing, use the "Combined.csv" file directly to begin building models.

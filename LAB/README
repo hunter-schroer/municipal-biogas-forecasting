@@ -1,1 +1,2 @@
-
+Welcome to the lab folder. This folder contains the raw lab data and code to pre-process this data following the methods described in the associated publication. 
+If you want to skip pre-processing, use the "LABS-LAGGED.csv" file directly to begin building models.
